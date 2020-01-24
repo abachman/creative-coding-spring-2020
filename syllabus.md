@@ -57,8 +57,8 @@ By the end of the semester, students of this course will:
 
 ## Grading
 
-40% Two major projects and associated documentation.
-40% Homework assignments.
+30% Two major projects and associated documentation.
+50% Homework assignments.
 20% Weekly attendance and participation.
 
 All projects and homework will be assigned with clear objectives and project specific evaluation methods.
@@ -73,23 +73,24 @@ All projects and homework are to be completed by the start of class on the assig
 
 ## Schedule
 
-| Date            | Topic                                               | Projects          |
-| ---             | ---                                                 | ---               |
-| `2020-01-27 01` | Hello world! Setting up. Basic drawing.             |                   |
-| `2020-02-03 02` | Interactive animations: Processing sketch structure |                   |
-| `2020-02-10 03` | Shapes, variables, conditions                       |                   |
-| `2020-02-17 04` | Loops and Arrays                                    |                   |
-| `2020-02-24 05` | Functions and Objects                               |                   |
-| `2020-03-02 06` | Exploring Libraries (Sound and Vision)              |                   |
-| `2020-03-09 07` | **PROJECT START**                                   | Project 1 Start   |
-| `2020-03-16`    | SPRING BREAK                                        |                   |
-| `2020-03-23 08` | **Present, critique** Intro to physical computing   | Project 1 Present |
-| `2020-03-30 09` | Using sensors                                       |                   |
-| `2020-04-06 10` | Communicating with devices                          |                   |
-| `2020-04-13 11` | **PROJECT START**                                   | Project 2 Start   |
-| `2020-04-20 12` | Open studio                                         |                   |
-| `2020-04-27 13` | **Present, critique, decompress**                   | Project 2 Present |
-| `2020-05-04 14` | Creative coding futures                             |                   |
+| Date            | Topic                                                | Assignments |
+| ---             | ---                                                  | ---         |
+| `2020-01-27 01` | Hello world! Setting up. Basic drawing.              | Homework 1  |
+| `2020-02-03 02` | Interactive, animated: Processing sketch structure   | HW 2        |
+| `2020-02-10 03` | Shapes, variables, conditions                        | HW 3        |
+| `2020-02-17 04` | Loops and Arrays                                     | HW 4        |
+| `2020-02-24 05` | Functions and Objects                                | HW 5        |
+| `2020-03-02 06` | Exploring Libraries (Sound and Vision)               | Project 1   |
+| `2020-03-09 07` | Complex Drawing + **PROJECT WORK DAY**               |             |
+| `2020-03-16`    | _SPRING BREAK_                                       |             |
+| `2020-03-23 08` | **Project 1 Present, critique** + Physical Computing |             |
+| `2020-03-30 09` | Using sensors                                        | HW 6        |
+| `2020-04-06 10` | Communicating with devices                           | HW 7        |
+| `2020-04-13 11` | **PROJECT 2 START**                                  | Project 2   |
+| `2020-04-20 12` | Open studio **PROJECT WORK DAY**                     |             |
+| `2020-04-27 13` | **Project 2 Present, critique, decompress**          |             |
+| `2020-05-04 14` | Creative coding futures                              |             |
+
 
 
 ## Attendance and Participation
