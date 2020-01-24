@@ -5,7 +5,7 @@
 | **department** | Interactive Arts                                      |
 | **course**     | IA 215.01 Creative Coding - Dolphin 240               |
 | **schedule**   | Spring 2020, Mondays 4pm - 10pm                       |
-| **website**    | https://github.com/abachman/creative-coding-fall-2019 |
+| **website**    | https://github.com/abachman/creative-coding-fall-2020 https://bit.ly/micacodes2020 |
 
 
 ## Instructor
@@ -50,9 +50,10 @@ By the end of the semester, students of this course will:
 - Computer you can install software on and the following application:
   - Processing 3 - https://processing.org/download/ (for writing code)
 - A file storage solution that is not your computer. GitHub is recommended, Google Drive is also acceptable.
-- Simple sketching and prototyping supplies: paper and writing utensils.
+- Simple sketching and prototyping supplies: paper and writing utensils are great.
 - A CircuitPlayground Express (available at https://www.adafruit.com/product/3333) and micro USB cable (for the hardware unit). Should be around $35.
 - All readings will be provided as PDFs or links.
+
 
 
 ## Grading
@@ -66,9 +67,11 @@ All projects and homework will be assigned with clear objectives and project spe
 An "A" in this course will require that you far exceed the minimum expectations for both form and content. Your work should show a highly developed understanding of course concepts and techniques, as well as an innovative incorporation of creative coding into your own developed aesthetic.
 
 
+
 ### Deadlines
 
 All projects and homework are to be completed by the start of class on the assigned due date. Unfinished work will not be discussed in class. However, once completed, documentation of late work may be submitted directly to the instructor with a penalty of one letter grade deduction per week.
+
 
 
 ## Schedule
@@ -106,6 +109,7 @@ Arriving more than 15 minutes after class starts is counted as an unexcused abse
 **You are required to attend on project presentation and critique days even if your work is not complete.** Critiques are the best method to learn about art-making from a diversity of fellow art-makers.
 
 
+
 ## Cloud Policy
 
 > As stated in the attendance policy above, attendance is mandatory.
@@ -118,11 +122,15 @@ Arriving more than 15 minutes after class starts is counted as an unexcused abse
 
 (via [Jessica Ann](http://www.1nfinitej3ss.com/))
 
+
+
 ## MICA Notices
 
 ### Academic Disability Accommodations
 
 MICA makes reasonable academic accommodations for qualified students with disabilities. All academic accommodations must be approved through the Learning Resource Center (LRC). Students requesting accommodation should schedule an appointment at the LRC (410-225-2416 or e-mail LRC@mica.edu), located in Bunting 110. It is the student’s responsibility to make an accommodation request in a timely manner. Academic accommodations are not retroactive.
+
+
 
 ### Environmental Health and Safety (EHS)
 
@@ -145,9 +153,13 @@ When an instructor has evidence that a student has plagiarized work submitted fo
 
 Students who are penalized by an instructor or department for committing plagiarism have the right to appeal the charge and penalties that ensue. Within three weeks of institutional action, the student must submit a letter of appeal to the department chairperson or program director, or relevant dean or provost related to the course for which actions were taken. The academic officer will assign three members of the relevant department/division to serve on a review panel. The panel will meet with the student and the instructor of record and will review all relevant and available materials. The panel will determine whether or not to confirm the charge and penalties. The findings of the panel are final. The panel will notify the instructor, the chairperson, division, the student, and the Office of Academic Affairs of their findings and any recommendations for change in penalties.
 
+
+
 ### Title IX Notification
 
 Maryland Institute College of Art seeks to provide an educational environment based on mutual respect that is free from discrimination and harassment. There are multiple ways to report sexual harassment/misconduct/assault and reports are encouraged (www.mica.edu/equal_opportunity). Students requiring academic adjustments due to an incident involving sexual harassment or discrimination should contact Student Affairs at 410.225.2422 or Human Resources at 410.225.2363. Keeping with institutional commitments to equity and to comply with Title IX of the Education Amendments of 1972 and guidance from the Office for Civil Rights, faculty and staff members are required to report disclosures of gender based discrimination made to them by students. However, nothing in this policy shall abridge academic freedom or MICA’s educational mission. Prohibitions against discrimination and discriminatory harassment do not extend to actions, statements or written materials that are relevant and appropriately related to course subject matter or academic discussion.
+
+
 
 ### Students with Extended Illness or Absence
 
