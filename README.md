@@ -4,7 +4,7 @@ We meet at 4pm on Mondays in the Dolphin Design center, room 240.
 
 The short URL to this page is: https://bit.ly/micacodes2020
 
-The syllabus is here: https://github.com/abachman/creative-coding-fall-2020/blob/master/syllabus.md
+The syllabus is here: https://github.com/abachman/creative-coding-spring-2020/blob/master/syllabus.md
 
 
 
