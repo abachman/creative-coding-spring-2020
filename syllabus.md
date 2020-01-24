@@ -82,12 +82,12 @@ All projects and homework are to be completed by the start of class on the assig
 | `2020-02-24 05` | Functions and Objects                               |                   |
 | `2020-03-02 06` | Exploring Libraries (Sound and Vision)              |                   |
 | `2020-03-09 07` | **PROJECT START**                                   | Project 1 Start   |
-| `2020-03-16`    | SPRING BREAK                                        |                   |
-| `2020-03-23 08` | **Present, critique** Intro to physical computing   | Project 1 Present |
+| `2020-03-16`    | SPRING BREAK                                        | +++++             |
+| `2020-03-23 08` | **Present, critique** + Intro to physical computing | Project 1 Present |
 | `2020-03-30 09` | Using sensors                                       |                   |
 | `2020-04-06 10` | Communicating with devices                          |                   |
 | `2020-04-13 11` | **PROJECT START**                                   | Project 2 Start   |
-| `2020-04-20 12` | Open studio                                         |                   |
+| `2020-04-20 12` | Open studio                                         | +++++             |
 | `2020-04-27 13` | **Present, critique, decompress**                   | Project 2 Present |
 | `2020-05-04 14` | Creative coding futures                             |                   |
 
