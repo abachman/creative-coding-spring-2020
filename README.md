@@ -2,12 +2,19 @@
 
 We meet at 4pm on Mondays in the Dolphin Design center, room 240.
 
+This site is where all code samples from class will end up. Anything I demonstrate for the class will be here after class finishes. Bookmark this site!
+
 The short URL to this page is: https://bit.ly/micacodes2020
 
 The syllabus is here: https://github.com/abachman/creative-coding-spring-2020/blob/master/syllabus.md
 
+Introduction Survey is here: https://forms.gle/qVN7dmEoQN5TuhLR9
 
+## Tools
 
+Processing.app: https://processing.org/download/
+
+Processing Reference: https://processing.org/reference/
 
 - - - - - -
 
