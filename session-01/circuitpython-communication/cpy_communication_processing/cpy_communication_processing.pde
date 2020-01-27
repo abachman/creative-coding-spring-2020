@@ -9,7 +9,8 @@ int shapes = 3;
 Serial myPort;
 
 void setup() {
-  size(800, 600, P3D);
+  size(1200, 800, P3D);
+  smooth(8);
 
   // List all the available serial ports, your circuit playground will
   // show up in a different place than mine and it won't work while
@@ -57,8 +58,8 @@ void draw() {
   for (int i=0; i < shapes; i++) {
     pushMatrix();
     translate((i + 1) * offset, height/2);
-    rotateX(map(accel[0], -10, 10, -PI, PI));
-    rotateY(map(accel[1], -10, 10, -PI, PI));
+    rotateY(map(accel[0], -10, 10, -PI, PI));
+    rotateX(map(accel[1], -10, 10, -PI, PI));
     box(width * 0.2);
     popMatrix();
   }
