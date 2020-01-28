@@ -4,7 +4,7 @@
 
 import processing.video.*;
 
-String cameraName = "USB Camera";
+String cameraName = "USB Camera #2";
 Capture cam;
 boolean spaced, reverse;
 static int FLEN = 120;
@@ -32,13 +32,15 @@ void setup() {
   frameRate(16);
 
   // The camera can be initialized directly using an element
-  // from the array returned by list():
+  // from the array returned by list()
   // cam = new Capture(this, cameras[0]);
   // Or, the settings can be defined based on the text in the list
-  cam = new Capture(this, 640, 360, "USB Camera", 30);
+  cam = new Capture(this, 640, 360, cameraName, 30);
 
   // Start capturing the images from the camera
   cam.start();
+  
+  println("GO!");
 }
 
 PImage frame;
