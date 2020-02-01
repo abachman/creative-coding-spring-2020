@@ -13,8 +13,9 @@ ellipse(width / 2, height / 2, 100, 100);
 fill(166, 166, 0, 100);
 ellipse(width / 2, height / 2 + 40, 100, 100);
 
+noFill();
 stroke(0, 0, 200);
-strokeWeight(24);
+strokeWeight(12);
 bezier(85, 20, 
        10, 10, 
        90, 90, 
@@ -35,6 +36,8 @@ bezier(width - 85, height - 20,
        width - 90, height - 90, 
        width - 15, height - 80);
 
+
+strokeWeight(24);
 noFill();
 stroke(255, 0, 0);
 rect(100, 100, width - 200, height - 200);
