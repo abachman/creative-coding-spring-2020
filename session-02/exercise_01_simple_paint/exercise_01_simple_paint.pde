@@ -24,25 +24,33 @@
 //
 
 void setup() {
-  size(500, 500);
+  size(1000, 500);
   background(0);
   stroke(0);
-  // noStroke();
+  noStroke();
   fill(255);
+  
+  colorMode(HSB);
+
   // noFill();
 }
 
+float c = 0;
 void draw() {
   // size: random!
-  float diameter = random(10, 20);
+  float diameter = random(8, 10);
   
   // position: controlled!
   float x = mouseX;
   float y = mouseY;
+  c = frameCount % 256;
+  fill(c, 255, 255);
+  float r = dist(pmouseX, pmouseY, mouseX, mouseY) * 5;
   
-  circle(x, y, diameter);
+  circle(x + random(-r, r), y + random(-r, r), diameter);
   
   if (keyPressed) {
+    saveFrame("screenshot.jpg");
     background(0);
   }
 }
