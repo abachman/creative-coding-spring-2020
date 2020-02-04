@@ -1,4 +1,4 @@
-int speed = 4;
+int speed = 2;
 
 // Cycling: motion that repeats.
 int a = 0; // cycle
@@ -9,40 +9,53 @@ int direction = speed;
 
 // Random: motion that is unpredictable.
 float c = 200;
-float d = 200;
+
+// random target
+float t = 0;
+float tx = 0;
+float tdx = speed;
 
 void setup() {
   size(400, 800);
-  noStroke();
-  background(0);
 }
 
 void draw() {
+  background(0);
 
-  // Cycling
-  // 1. change value with % to control range 
+  //// Cycling
+  // 1. change value with % to control range
   a = (a + speed) % width;
   ellipse(a, 100, 20, 20);
 
-  //////// Bouncing
-  ////// 1. change value
-  b = (b + direction); 
+  //// Bouncing
+  // 1. change value
+  b = (b + direction);
   if (b > width || b < 0) {
     // 2. reverse direction when moving offscreen
     direction = -direction;
   }
-  fill(b % 256);
   ellipse(b, 200, 20, 20);
 
-  ////// Random walk
-  //// 1. change value by tiny, random increments, "wiggle"
-  fill(255, 30);
+  //// Random walk
+  // 1. change value by tiny, random increments, "wiggle"
   c = c + random(-speed, speed);
-  d = d + random(-speed, speed);
-  ellipse(c, d, 20, 20);
+  ellipse(c, 300, 20, 20);
 
-  //// Completely Random
-  //// 1. set value randomly, "noisy"
+  // Completely Random
+  // 1. set value randomly, "noisy"
   float d = random(width);
   ellipse(d, 400, 20, 20);
+
+   // Completely Random
+  // 1. set value randomly, "noisy"
+  tx = tx + tdx;
+  if (abs(tx - t) < speed * 2)  {
+    t = random(width);
+    if (t < tx) {
+      tdx = -speed;
+    } else {
+      tdx = speed;
+    }
+  }
+  ellipse(width/2, 600, tx, tx);
 }
