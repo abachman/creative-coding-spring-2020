@@ -7,14 +7,14 @@
 
 // storing position
 
-int length = 2000;
+int length = 3000;
 float x[] = new float[length];
 float y[] = new float[length];
 float c[] = new float[length];
 
 
 void setup() {
-  size(800, 800);
+  size(1200, 1200);
   background(0);
   stroke(255, 255, 255, 30);
   strokeWeight(4);
@@ -23,7 +23,7 @@ void setup() {
   while (i < x.length) {
     x[i] = random(width);
     y[i] = random(height);
-    c[i] = random(150, 255);
+    c[i] = random(180);
     i = i + 1;
   }
 }
