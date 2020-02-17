@@ -4,15 +4,15 @@ void setup() {
 }
 
 void draw() {
-  background(0);
+  //background(0);
 
+  fill(255);
   float x = 0;
   while (x <= width) {
     float y = 0;
     while (y <= height) {
       float d = dist(mouseX, mouseY, x, y);
-      strokeWeight(d / 10);
-      point(x, y);
+      circle(x, y, d / 10);
       y = y + 100;
     }
     x = x + 100;
@@ -20,6 +20,7 @@ void draw() {
 
   fill(0, 255, 0);
   text(str(mouseX) + ", " + str(mouseY), 20, 20);
+  
 }
 
 /*
