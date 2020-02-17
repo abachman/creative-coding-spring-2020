@@ -14,8 +14,8 @@ void draw() {
   float t = 0;
   while (t < TWO_PI) {
     float r = 80 + (80 * noise(t, frameCount * 0.1));
-    float x = r * sin(t);
-    float y = r * cos(t);
+    float x = r * cos(t);
+    float y = r * sin(t);
     vertex(x, y);
     t = t + (TWO_PI / 100);
   }
