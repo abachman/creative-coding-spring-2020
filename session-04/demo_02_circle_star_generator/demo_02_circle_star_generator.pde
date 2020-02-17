@@ -1,10 +1,3 @@
-/*
-How could we...?
-- Add or remove points
-- scale up / down
-- wiggle!
-- make it a star?
-*/
 
 void setup() {
   size(600, 600);
@@ -20,8 +13,24 @@ void draw() {
   beginShape();
   float t = 0;
   while (t < TWO_PI) {
-    vertex(80 * sin(t), 80 * cos(t));
-    t = t + 0.3;
+    float r = 80 + (80 * noise(t, frameCount * 0.1));
+    float x = r * sin(t);
+    float y = r * cos(t);
+    vertex(x, y);
+    t = t + (TWO_PI / 100);
   }
   endShape(CLOSE);
 }
+
+void keyPressed() {
+  noLoop();
+  
+}
+
+/*
+How could we...?
+- Add or remove points
+- scale up / down
+- wiggle!
+- make it a star?
+*/
