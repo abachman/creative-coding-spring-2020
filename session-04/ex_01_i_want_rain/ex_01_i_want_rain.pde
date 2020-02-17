@@ -1,6 +1,6 @@
 // i want rain
 // 
-// Hint: start with two FloatList objects, 
+// Hint: start with two arrays or FloatList objects, 
 // one for x and one for y.
 //
 
