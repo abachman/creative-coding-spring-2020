@@ -6,7 +6,8 @@ color palette[] = new color[]{
   #843e2d,
   #4c653c,
   #3ea2d8,
-  #efebd0
+  #efebd0,
+  #000000
 };
 
 void setup() {
@@ -16,6 +17,9 @@ void setup() {
 }
 
 void draw() {
-  fill(palette[int(random(palette.length))]);
+  int length = palette.length;
+  //          0 ... length
+  int index = int(random(length));
+  fill(    palette[index]  );
   circle(random(width), random(height), random(20, 40));
 }
