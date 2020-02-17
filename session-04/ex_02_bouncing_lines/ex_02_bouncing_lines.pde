@@ -1,6 +1,6 @@
 // cycling motion from session-02/demo_04_types_of_motion
 
-// We'll need lots of FloatLists!
+// We'll need lots of arrays!
 
 // Goal: mobile webs
 
