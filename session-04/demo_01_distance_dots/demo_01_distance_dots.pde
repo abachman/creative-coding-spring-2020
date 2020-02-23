@@ -4,18 +4,15 @@ void setup() {
 }
 
 void draw() {
-  //background(0);
+  background(0);
 
   fill(255);
-  float x = 0;
-  while (x <= width) {
-    float y = 0;
-    while (y <= height) {
+  
+  for (float x = 0;x <= width; x += 100) {
+    for (float y = 0; y <= height; y = y + 100) {
       float d = dist(mouseX, mouseY, x, y);
       circle(x, y, d / 10);
-      y = y + 100;
     }
-    x = x + 100;
   }
 
   fill(0, 255, 0);
