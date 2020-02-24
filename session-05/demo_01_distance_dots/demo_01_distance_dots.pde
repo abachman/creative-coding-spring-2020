@@ -10,20 +10,20 @@ void setup() {
 }
 
 void draw() {
-  background(0);
-
-  noFill();  
-  float x = 0;
-  while (x <= width) {
-    float y = 0;
-    while (y <= height) {
-      float d = dist(mouseX, mouseY, x, y);
-      circle(x, y, d / 10);
-      y = y + 40;
+  //background(0);
+  for (float x = 0; x <= width; x = x + 40) {
+    for (float y = 0; y <= height; y = y + 40) {
+      dot(x, y);
     }
-    x = x + 40;
   }
 }
 
 void dot(float x, float y) {
+  float d = dist(mouseX, mouseY, x, y);
+  noFill();
+  stroke(d % 255);
+  circle(x, y, d % 32);
+  noStroke();
+  fill(d % 255, 0, 0);
+  rect(x, y, 4, 4);
 }
