@@ -23,13 +23,7 @@ void draw() {
     }
     x = x + 40;
   }
-
-  //fill(0, 255, 0);
-  //text(str(mouseX) + ", " + str(mouseY), 20, 20);
 }
 
 void dot(float x, float y) {
-  float d = dist(mouseX, mouseY, x, y);
-  stroke((d * 0.8) % 255, 20, 100, 40);
-  circle(x, y, d / 10);
 }
