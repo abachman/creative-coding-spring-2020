@@ -7,88 +7,54 @@
 // Starting with one, go to many.
 // Connect them.
 
+// initial number of points to create
 int len = 2;
 
-class Web {
-  Point floaters[];
+// locations
+float x[] = new float[len];
+float y[] = new float[len];
 
-  Web() {
-    floaters = new Point[2];
-    for (int i = 0; i < floaters.length; i++) {
-      floaters[i] = new Point();
-    }
-  }
-
-  add() {
-    floaters = append(floaters, new Point());
-  }
-
-  update() {
-    for (int i = 0; i < floaters.length; i++) {
-      floaters[i].update();
-    }
-  }
-  
-  display() {
-    for (int i = 0; i < floaters.length; i++) {
-      floaters[i].display();
-      floaters[i].connect(floaters[(i + 1) % floaters.length]);
-    }
-  }
-}
-
-class Point {
-  float x, y, vx, vy;
-  Point other;
-
-  Point() {
-    x = random(width);
-    y = random(height);
-    vx = random(-2, 2);
-    vy = random(-2, 2);
-  }
-
-  void update() {
-    x += vx;
-    y += vy;
-
-    if (x < 0 || x > width) {
-      vx = -vx;
-    }
-
-    if (y < 0 || y > height) {
-      vy = -vy;
-    }
-  }
-   
-  void display() {
-    circle(x, y, 2);
-    line(x, y, other.x, other.y);
-  }
-
-  void connect(Point o) {
-    other = o;
-  }
-}
-
-Point floaters[] = new Point[len];
-
-Web web;
+// speeds
+float vx[] = new float[len];
+float vy[] = new float[len];
 
 void setup() {
   size(400, 800);
   stroke(255);
 
-  web = new Web();
+  for (int i = 0; i < x.length; i++) {
+    x[i] = random(width);
+    y[i] = random(height);
+    vx[i] = random(-2, 2) * 3;
+    vy[i] = random(-2, 2) * 3;
+  }
 }
 
 void draw() {
   background(0);
 
-  web.update();
-  web.display();
+  //// Bouncing
+  for (int i = 0; i < x.length; i++) {
+    x[i] = x[i] + vx[i];
+    if (x[i] > width || x[i] < 0) {
+      vx[i] = -vx[i];
+    }
+
+    y[i] = y[i] + vy[i];
+    if (y[i] > height || y[i] < 0) {
+      vy[i] = -vy[i];
+    }
+
+    stroke(0, 255, 0);
+    circle(x[i], y[i], 4);
+    int next_i = (i + 1) % x.length;
+    line(x[i], y[i], x[next_i], y[next_i]);
+  }
 }
 
 void mousePressed() {
-  web.add();
+  x = append(x, random(width));
+  y = append(y, random(height));
+  vx = append(vx, random(-2, 2));
+  vy = append(vy, random(-2, 2));
 }
