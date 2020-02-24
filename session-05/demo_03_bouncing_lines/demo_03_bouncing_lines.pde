@@ -9,54 +9,37 @@
 // Then replace all the arrays with a single array 
 // of Bouncer objects.
 
-// locations
-float x[] = new float[2];
-float y[] = new float[2];
-
-// speeds
-float vx[] = new float[2];
-float vy[] = new float[2];
+Bouncer things[] = new Bouncer[8];
 
 void setup() {
-  size(400, 800);
+  size(800, 800);
   stroke(0, 255, 200, 20);
   fill(0, 255, 200, 20);
   strokeWeight(2);
   background(0);
 
-  for (int i = 0; i < x.length; i++) {
-    x[i] = random(width);
-    y[i] = random(height);
-    vx[i] = random(-2, 2) * 3;
-    vy[i] = random(-2, 2) * 3;
+  for (int i = 0; i < things.length; i++) {
+    things[i] = new Bouncer();
   }
 
 }
 
 void draw() {
-  //// Bouncing
-  for (int i = 0; i < x.length; i++) {
-    x[i] = x[i] + vx[i];
-    if (x[i] > width || x[i] < 0) {
-      vx[i] = -vx[i];
-    }
-
-    y[i] = y[i] + vy[i];
-    if (y[i] > height || y[i] < 0) {
-      vy[i] = -vy[i];
-    }
-
-    circle(x[i], y[i], 4);
-    int next_i = (i + 1) % x.length;
-    line(x[i], y[i], x[next_i], y[next_i]);
+  //background(0);
+  
+  for (int i = 0; i < things.length; i++) {
+    Bouncer thing = things[i];
+    thing.move();
+    thing.display();
+    
+    int next_i = (i + 1) % things.length;
+    Bouncer other_thing = things[next_i];
+    thing.connect(other_thing);
   }
 }
 
 void mousePressed() {
-  x = append(x, random(width));
-  y = append(y, random(height));
-  vx = append(vx, random(-2, 2));
-  vy = append(vy, random(-2, 2));
+
 }
 
 void keyPressed() {
