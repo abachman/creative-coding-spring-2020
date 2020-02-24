@@ -1,4 +1,4 @@
-// by moving all our drawing code into
+// By moving all our drawing code into
 // a function we can reuse it:
 //
 //   1. at different locations
@@ -28,7 +28,7 @@ void draw() {
     float t = (point / (star_points * 2)) * TWO_PI;
     float r = 30 + (30 * noise(abs(t - PI), frameCount * 0.1));
     
-    // to make a star, draw points in a circle. 
+    // to make a star, draw points in a circle and
     // on every other point, double the radius
     if (point % 2 == 0) {
       r *= 2;

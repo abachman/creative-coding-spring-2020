@@ -12,7 +12,6 @@ float x[] = new float[length];
 float y[] = new float[length];
 float c[] = new float[length];
 
-
 void setup() {
   size(1200, 1200);
   background(0);
