@@ -19,8 +19,10 @@ void draw() {
   
   stroke(255, 0, 0);
   drawStar(width - mouseX, mouseY);
+  
   stroke(0, 255, 0);
   drawStar(width - mouseX, height - mouseY);
+  
   stroke(0, 0, 255);
   drawStar(mouseX, height - mouseY);
 }
