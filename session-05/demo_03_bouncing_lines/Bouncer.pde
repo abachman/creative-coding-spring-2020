@@ -38,10 +38,10 @@ class Bouncer {
   void connect(Bouncer other) {
     noFill();
     float d = dist(other.x, other.y, x, y);
-    stroke(c);
+    stroke(c, 40);
     circle(x, y, d * 0.2);
     
-    //stroke(100);
+    //stroke(100, 20);
     //line(x, y, other.x, other.y);
   }
 }

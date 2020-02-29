@@ -9,7 +9,7 @@
 // Then replace all the arrays with a single array 
 // of Bouncer objects.
 
-Bouncer things[] = new Bouncer[8];
+ArrayList<Bouncer> things;
 
 void setup() {
   size(800, 800);
@@ -18,8 +18,9 @@ void setup() {
   strokeWeight(2);
   background(0);
 
-  for (int i = 0; i < things.length; i++) {
-    things[i] = new Bouncer();
+  things = new ArrayList<Bouncer>();
+  for (int i = 0; i < 4; i++) {
+    things.add(new Bouncer());
   }
 
 }
@@ -27,21 +28,25 @@ void setup() {
 void draw() {
   //background(0);
   
-  for (int i = 0; i < things.length; i++) {
-    Bouncer thing = things[i];
+  for (Bouncer thing : things) {
     thing.move();
     thing.display();
     
-    int next_i = (i + 1) % things.length;
-    Bouncer other_thing = things[next_i];
-    thing.connect(other_thing);
+    Bouncer other = pickThing(thing);   
+    thing.connect(other);
   }
 }
 
-void mousePressed() {
+Bouncer pickThing(Bouncer thing) {
+  int idx = things.indexOf(thing);
+  return things.get((idx + 1) % things.size());
+}
 
+void mousePressed() {
+  things.add(new Bouncer());
 }
 
 void keyPressed() {
   background(0);
+  things.clear();
 }
