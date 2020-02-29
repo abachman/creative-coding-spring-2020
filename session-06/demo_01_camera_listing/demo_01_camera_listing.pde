@@ -29,9 +29,10 @@ void setup() {
   // 
   // etc.
   // 
-  // You will need the name of the camera, the size, and the 
-  // fps for our next sketch. Copy and paste the whole line
-  // as a comment into this sketch or into a separate text file.
+  // You will need everything in the "s including the double
+  // quotes themselves for later sketches. Copy and paste the 
+  // whole line as a comment into this sketch or into a 
+  // separate text file.
   //
   
 }
