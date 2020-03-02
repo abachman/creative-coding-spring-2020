@@ -9,7 +9,7 @@ void setup() {
   //  [1] "name=USB2.0 VGA UVC WebCam,size=640x480,fps=30"
   // 
   // replace the values in the new Capture(...) line below:
-  //                  this   camera config
+  //                  this  camera config
   video = new Capture(this, "name=USB2.0 VGA UVC WebCam,size=640x480,fps=30");
   video.start();    
   
