@@ -16,17 +16,20 @@ void setup() {
   // replace the values in the new Capture(...) line below:
   //                        sz0  sz1  name                     fps
   video = new Capture(this, cw, ch);
-  video.start();    
+  video.start();   
+  
+  imageMode(CENTER);
 }
 
 void draw() {
   if (video.available()) {
     video.read();
-    for (int i=0; i < 10; i++) {
-      int y = int(random(video.height));
-      PImage slice = video.get(0, y, video.width, 10);
-      float ratio = height / float(ch);
-      image(slice, 0, y * ratio, width, 10 * ratio);
-    }
+    
+    pushMatrix();
+    scale(-1, 1);
+    image(video, -width/2, height/2, mouseX, mouseY);
+    popMatrix();
+     
+    ellipse(width/2, height/2, 30, 30);
   }
 }
