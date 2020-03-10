@@ -12,11 +12,12 @@ void setup() {
 
 void draw() {
   //background(0);
-  stroke(255, 20);
+  
 
   pushMatrix();
+  stroke(255, map(mouseY, 0, height, 0, 80));
   translate(width/2, height/2);
-  rotate(frameCount * 0.02);
+  rotate(frameCount * 0.01);
 
   // trace a star path
   float star_points = 5;
@@ -25,7 +26,7 @@ void draw() {
   beginShape();
   while (point < star_points * 2) {
     float t = (point / (star_points * 2)) * TWO_PI;
-    float r = 30 + (100 * noise(abs(t - PI), frameCount * 0.1));
+    float r = map(mouseY, 0, height, -20, 400) + (100 * noise(abs(t - PI), frameCount * 0.1));
 
     // to make a star, draw points in a circle and
     // on every other point, double the radius
