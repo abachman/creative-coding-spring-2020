@@ -25,13 +25,23 @@ void setup() {
   loudness.input(input);
 }
 
+float permanent = 0;
+
 void draw() {
-  stroke(255);
+  background(0);
   noFill();
   
   float volume = loudness.analyze() * 800;
+ 
+  if (volume > permanent) {
+    permanent = volume;
+  }
   
+  stroke(255);
+  circle(width/2, height/2, volume);
   
-
-  circle(mouseX, mouseY, volume);
+  if (permanent > 0) {
+    stroke(0, 255, 0); 
+    circle(width/2, height/2, permanent);
+  }
 }
