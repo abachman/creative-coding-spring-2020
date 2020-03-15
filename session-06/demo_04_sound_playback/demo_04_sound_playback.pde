@@ -3,12 +3,21 @@
 
 import processing.sound.*;
 
+
+Amplitude loudness;
 SoundFile sound;
 
 void setup() {
   size(600, 600);
   sound = new SoundFile(this, "swamp.mp3");
   sound.loop();
+  
+  loudness = new Amplitude(this);
+
+
+  // Patch the input to the volume analyzer
+  loudness.input(sound);
+
 
   textSize(65);
   textAlign(LEFT, CENTER);
@@ -17,6 +26,14 @@ void setup() {
 void draw() {
   background(0);
   stroke(255);
+  
+  float volume = loudness.analyze();
+  int size = int( map(volume, 0, 0.5, 1, 350));
+  println(size);
+  
+
+  circle(width/2, height/2, size);
+
 
   // what about sound.rate?
 
@@ -38,5 +55,6 @@ void draw() {
   float rate = map(mouseX, 0, width, 0.2, 3.8);
   sound.rate(rate);
   
+  text("mouseX: " + mouseX, 40, 100);
   text("rate: " + rate, 40, 40);
 }

@@ -26,6 +26,10 @@ void setup() {
   //   [1] "name=USB2.0 VGA UVC WebCam,size=640x480,fps=30"
   //   [2] "name=USB2.0 VGA UVC WebCam,size=176x144,fps=30"
   //   [3] "name=USB2.0 VGA UVC WebCam,size=320x240,fps=30"
+  //   [4] "name=USB Camera,size=640x480,fps=30"
+  //   [6] "name=USB Camera,size=320x240,fps=30"
+  //   [7] "name=FaceTime HD Camera,size=1280x720,fps=30"
+  //   [8] "name=FaceTime HD Camera,size=640x360,fps=30"
   // 
   // etc.
   // 

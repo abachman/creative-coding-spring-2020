@@ -36,7 +36,7 @@ void setup() {
   objects = new Rectangle[0];
   
   // Start capturing the images from the camera
-  cam = new Capture(this, "name=HD Pro Webcam C920,size=480x270,fps=15");
+  cam = new Capture(this, 480, 240);
   cam.start();
 }
 
