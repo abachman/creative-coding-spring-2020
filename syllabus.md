@@ -1,4 +1,6 @@
-# IA1 - Creative Coding - MICA - Spring 2020
+# [APPENDED] IA1 - Creative Coding - MICA - Spring 2020
+
+MICA's [Keep on Learning](https://www.mica.edu/kol) webpage provides resources that will help students in their creative and academic work. Study guides, tutoring information, and wellness resources to Keep on Learning can be found at [http://mica.edu/kol](https://www.mica.edu/kol).
 
 | | |
 | ---            | ---                                                   |
@@ -16,8 +18,128 @@
 | **pronouns**     | he / him                              |
 | **email**        | abachman@mica.edu                     |
 | **links**        | [github](https://github.com/abachman), [twitter](https://twitter.com/abachman), [personal](https://adambachman.org) |
-| **office hours** | On campus, by appointment. |
+| **office hours** | Zoom meeting, between 6pm and 10pm EDT, Thursdays |
 
+You can schedule a Zoom meeting with me to review homework, classwork, or projects using this link: [https://calendly.com/abachman/review-work](https://calendly.com/abachman/review-work)
+
+## REVISIONS - 2020-March
+
+Wow! Big changes! New pressures, new ideas, new opportunities? New struggles. Same desire to grow, same us.
+
+### CHANGES
+
+Big changes! The five things you need to know are listed here with explanations below.
+
+1. All grades are now pass/fail by default.
+2. No physical computing.
+3. New course outline.
+4. There will be no final project.
+5. Contact information updates.
+
+#### 1. The course is now pass/fail.
+
+With the shift toward distance teaching/learning to complete the Spring 2020 semester, all student grades will be based on Pass/Fail unless a student specifically requests a letter grade.
+
+Letter grades are available upon request, but you must contact me **directly** to request it specifically.
+
+To receive a “Pass” students must:
+
+- Complete all assignments on time
+- Meet all expectations related to quality of work
+- Participate in all class activities (online/offline)
+
+Should you desire a letter grade:
+
+- Please advise me in writing before April 17
+
+#### 2. No physical computing this semester :(
+
+It was not my intention to make you purchase materials for class and then never touch them, so I will be presenting a session on the [CircuitPlayground](https://learn.adafruit.com/adafruit-circuit-playground-express), the [Makecode](https://makecode.adafruit.com/) editor, and [the CircuitPython programming language](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython).
+
+Due to the complexity of dealing with hardware, however, I will not be assigning work for it and we will only be spending 1 session instead of all the rest of the sessions.
+
+
+#### 3. New course outline. We're going back to Processing! :D
+
+We get to dig deeper! Go in interesting new directions! The rough outline looks like this:
+
+| Date            | Topic               | Assignments |
+| ---             | ---                 | ---         |
+| `2020-03-30 09` | Physical Computing! | Project 1  |
+| `2020-04-06 10` | Project 1 Presentations | Documentation |
+| `2020-04-13 11` | Sketches Online | HW 6 |
+| `2020-04-20 12` | Communication in Processing | HW 7 |
+| `2020-04-27 13` | We are the system  |  |
+| `2020-05-04 14` | Coding Futures     |  |
+
+Assignments should still be turned in the week after they are assigned.
+
+
+#### 4. No Final Project
+
+There will be some new homework assignments, but no final project. Relax, play with some new toys, make something because making stuff is the best. This continues the emphasis on many small works over singular large works.
+
+
+#### 5. Contact Information
+
+You can reach me by email. You should! It's great! I will respond to all messages within 48 hours, though may take longer to complete a complex answer. This is my **primary contact method**. Contact me _more_ than 48 hours before you absolutely need an answer.
+
+I will be broadcasting all lessons live at [https://www.twitch.tv/okayitsnotacat](https://www.twitch.tv/okayitsnotacat), starting 4pm EDT on Mondays. Recordings will be published to YouTube at [https://www.youtube.com/channel/UCV_P1TYK4zreaZ1M2sqoKwA](https://www.youtube.com/channel/UCV_P1TYK4zreaZ1M2sqoKwA) and available upon request. Once the primary teaching / presentation portion of class is done, I will switch over to Zoom.
+
+I have a Zoom meeting setup for group and 1-on-1 video chatting, the link to that meeting room will be provided by email. Office hours outside of Monday evening are still **by request only**. I can start as early as 7am EDT and finish as late as 11pm EDT most weekdays. That gives everyone in every hemisphere plenty of opportunity to chat. I spend all day on Zoom, so it's super easy for me to start and run a meeting. This is my **secondary contact method**.
+
+There is a class Discord server! Here's an invite link: [https://discord.gg/uQPgTHK](https://discord.gg/uQPgTHK). Please use the same name you gave me or send me an email so I know which handle is yours. I will be watching chat for the duration of the previously scheduled class time, Mondays 4 - 10pm. I also have it on my mobile device so will be notified if you message me there. This is my **tertiary contact method**.
+
+All work will continue to be turned in to the class Google Drive in your personal folder. **IF YOU CANNOT ACCESS GOOGLE FROM HOME** you may turn in work directly to me by **email only**.
+
+In Summary:
+
+1. Email: abachman@mica.edu
+2. Zoom: contact me to set up a call
+3. Discord: [https://discord.gg/uQPgTHK](https://discord.gg/uQPgTHK)
+4. Twitch.tv: [https://www.twitch.tv/okayitsnotacat](https://www.twitch.tv/okayitsnotacat)
+
+All other class materials will be stored at their original locations:
+
+- [Class Google Drive](https://drive.google.com/drive/folders/12bH-72MuRhje4T9cEpF_6aPRfjbOuTDz?usp=sharing)
+- [Class GitHub repository](https://github.com/abachman/creative-coding-spring-2020)
+
+If you cannot react any of the above locations on the internet, **IT IS YOUR RESPONSIBILITY TO CONTACT ME TO ARRANGE ALTERNATIVE LOCATIONS FOR ALL CLASS INFORMATION.**
+
+
+### The Vibe
+
+This is a super weird time for us.
+
+It's okay to acknowledge that this is not the most important thing in the world, don't stress, we're still going to have the chance to do interesting work. How great is it that we can communicate? That we can create and share? That we have the opportunity to respond to strange times by connecting and building things that connect?
+
+Work to the best of your ability in this moment.
+
+- *Adam B.*
+
+## Tutoring, Coaching, and Library Resources
+
+The Writing Studio is ready to provide virtual tutoring. Students can make an appointment for a virtual tutoring session via [the Writing Studio’s Calendly](https://calendly.com/micaws).
+
+The LRC's academic coaches are ready to provide virtual peer-to-peer support. Students can [see availability and schedule an appointment here](https://mica.mywconline.com).
+
+Decker Library is offering many remote resources that can be accessed here: [Current Operations Information](https://www.mica.edu/libraries/decker-library/about/current-operations-information/)
+
+### Academic Integrity
+
+All of the Academic Policies in the original course syllabus apply during this period of transition. In addition you (student) must agree that:
+
+1. You affirm the originality and integrity of the work you submit via email/online.
+2. You will not share your solutions to online assignments with others.
+3. You will not engage in activities that will dishonestly improve their results or hurt the results of others.
+
+-----
+
+
+
+# Original Syllabus
+
+**NOTE:** *Due to COVID-19, the information above is authoritative and the information included below is for archival purposes only.*
 
 ## Description
 
@@ -55,8 +177,9 @@ By the end of the semester, students of this course will:
 - All readings will be provided as PDFs or links.
 
 
-
 ## Grading
+
+**NOTE:** *Due to COVID-19, this section is out of date.*
 
 30% Two major projects and associated documentation.
 50% Homework assignments.
@@ -67,14 +190,16 @@ All projects and homework will be assigned with clear objectives and project spe
 An "A" in this course will require that you far exceed the minimum expectations for both form and content. Your work should show a highly developed understanding of course concepts and techniques, as well as an innovative incorporation of creative coding into your own developed aesthetic.
 
 
-
 ### Deadlines
+
+**NOTE:** *Due to COVID-19, this section is out of date.*
 
 All projects and homework are to be completed by the start of class on the assigned due date. Unfinished work will not be discussed in class. However, once completed, documentation of late work may be submitted directly to the instructor with a penalty of one letter grade deduction per week.
 
 
-
 ## Schedule
+
+**NOTE:** *Due to covid 19, this section is out of date.*
 
 | Date            | Topic                                                | Assignments |
 | ---             | ---                                                  | ---         |
@@ -97,6 +222,8 @@ All projects and homework are to be completed by the start of class on the assig
 
 
 ## Attendance and Participation
+
+**NOTE:** *Due to COVID-19, this section is out of date.*
 
 > As a citizen of the classroom, you are expected to actively participate in class exercises, discussions, and critiques. In addition, this class is intended to function as a peer learning environment. I encourage you to support and talk to one another during class, particularly if you are experiencing any difficulty.
 
