@@ -18,19 +18,19 @@
 
 ### The CircuitPlayground Express
 
-Guide: https://learn.adafruit.com/adafruit-circuit-playground-express
+- Guide: https://learn.adafruit.com/adafruit-circuit-playground-express
 
 ### Programming in Makecode on the CircuitPlayground Express
 
-Guide: https://learn.adafruit.com/adafruit-circuit-playground-express/makecode
+- Guide: https://learn.adafruit.com/adafruit-circuit-playground-express/makecode
 
 ### Programming in CircuitPython
 
-Download firmware: https://circuitpython.org/board/circuitplayground_express/
-CircuitPython on the CircuitPlayground: https://learn.adafruit.com/circuit-playground-express-circuitpython-5-minute-guide/overview
-Doing more on the CircuitPlayground with CircuitPython: https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-quickstart
-General Guide: https://learn.adafruit.com/welcome-to-circuitpython
+- Download firmware: https://circuitpython.org/board/circuitplayground_express/
+- CircuitPython on the CircuitPlayground: https://learn.adafruit.com/circuit-playground-express-circuitpython-5-minute-guide/overview
+- Doing more on the CircuitPlayground with CircuitPython: https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-quickstart
+- General Guide: https://learn.adafruit.com/welcome-to-circuitpython
 
 ### Example Projects
 
-Guides on the Adafruit Learning System: https://learn.adafruit.com/category/express
+- Guides on the Adafruit Learning System: https://learn.adafruit.com/category/express
