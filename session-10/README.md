@@ -5,3 +5,4 @@
 1. Convert "void" to "function"
 1. Convert "size()" to "createCanvas()"
 1. Put "color()" inside setup()
+1. On editor.p5js.org, you can upload files and then use them in the sketch. For example, with `loadImage("filename")`
