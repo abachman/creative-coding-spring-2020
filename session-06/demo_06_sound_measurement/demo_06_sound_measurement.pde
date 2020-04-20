@@ -11,7 +11,7 @@ AudioIn input;
 Amplitude loudness;
 
 void setup() {
-  size(800, 800);
+  size(400, 400);
   background(0);
   
   input = new AudioIn(this, 0);
@@ -31,7 +31,7 @@ void draw() {
   background(0);
   noFill();
   
-  float volume = loudness.analyze() * 800;
+  float volume = loudness.analyze() * 1600;
  
   if (volume > permanent) {
     permanent = volume;

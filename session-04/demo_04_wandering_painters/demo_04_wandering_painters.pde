@@ -8,6 +8,8 @@
 // storing position
 
 int length = 3000;
+
+// watch out for those Array constructors!
 float x[] = new float[length];
 float y[] = new float[length];
 float c[] = new float[length];
