@@ -1,5 +1,7 @@
 {
   "workbench.colorTheme": "Base16 Light Atelier Heath",
-  "editor.fontSize": 18,
-  "window.zoomLevel": 1
+  "editor.fontSize": 14,
+  "window.zoomLevel": 1,
+  "debug.console.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
 }
