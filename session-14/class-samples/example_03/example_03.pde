@@ -1,3 +1,5 @@
+// Bethsabée Bonici - BONICI_Assignment4 Sketch1
+
 void setup() {
   size(600, 600);
   background(43, 4, 140);

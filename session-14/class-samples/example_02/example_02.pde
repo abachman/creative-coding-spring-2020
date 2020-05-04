@@ -1,3 +1,5 @@
+// Junyi Zhu - week two homework
+
 int speed = 2;
 int b = 200;
 int direction = speed;
@@ -16,7 +18,7 @@ rect(mouseX,mouseY,mouseX/2,mouseX/2);
     stroke(50,80,120);
    rect(mouseX,mouseY,mouseY/2,mouseY/2);
     }
-  
+
 noStroke();
 fill(255);
 circle(580,350,550);
@@ -76,11 +78,11 @@ circle(650,800,30);
   }
 
   circle(b, 200, 50);
-  
 
-  
-  
-  
+
+
+
+
  //circle(mouseX,mouseY,mouseX/2);
-  
+
  }
